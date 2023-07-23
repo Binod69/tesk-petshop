@@ -1,7 +1,6 @@
 'use client';
 import Link from 'next/link';
 import Image from 'next/image';
-// import Image from 'next/image';
 import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
@@ -9,8 +8,6 @@ import Navbar from 'react-bootstrap/Navbar';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import AddToCartButton from '../ui/AddToCartButton';
 import AddtoCartMobile from '../ui/AddtoCartMobile';
-// import logo from '../../assets/images/animal-shelter.png';
-// import { AiOutlineSearch } from 'react-icons/ai';
 import searchIcon from '../../assets/images/Group 1.svg';
 import love from '../../assets/images/Vector.svg';
 
@@ -36,6 +33,9 @@ const Header = () => {
             </div>
             <div className=" d-block d-lg-none">
               <AddtoCartMobile />
+            </div>
+            <div className="d-block d-lg-none">
+              <Image src={love} alt="love.svg" />
             </div>
             <Navbar.Toggle
               className="order-first order-lg-0"
