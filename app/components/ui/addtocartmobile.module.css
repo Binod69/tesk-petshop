@@ -1,0 +1,27 @@
+.button {
+  display: inline-flex;
+  padding: 0.5rem;
+  align-items: flex-start;
+  gap: 0.71388rem;
+  border-radius: 50%;
+  border: 0px;
+  text-align: center;
+  background-color: white;
+}
+.iconContainer {
+  position: relative;
+}
+.buttonIcon {
+  color: var(--third-color);
+  text-align: center;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 1rem;
+}
+.badge {
+  font-size: 0.5rem !important;
+  position: absolute;
+  left: 70%;
+  top: -15%;
+}

@@ -1,1 +1,56 @@
+.header {
+  height: 6.375rem;
+}
+.brandContainer {
+  margin: 0.5rem 0rem;
+}
+.brandLogo {
+  color: #000;
+  text-align: center;
+  font-size: clamp(0.9375rem, 0.9375rem + 0vw, 0.9375rem);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.125;
+  max-width: 70%;
+}
+.linkNavHome {
+  color: #007fff;
+  font-family: Inter;
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 0.875rem; /* 93.333% */
+  text-transform: capitalize;
+}
 
+.linkNav {
+  color: #17224d;
+  text-decoration: none;
+  font-family: Inter;
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 0.875rem; /* 93.333% */
+  text-transform: capitalize;
+}
+
+.search {
+  width: 18.125rem !important;
+  height: 3.125rem !important;
+  flex-shrink: 0 !important;
+  border-radius: 1.5625rem !important;
+  border: 1px solid #007fff !important;
+}
+.searchIcon {
+  position: absolute;
+  left: 85%;
+  top: 10%;
+  width: 2.4375rem;
+  height: 2.4375rem;
+}
+
+@media screen and (min-width: 1200px) {
+  .brandContainer {
+    margin: 3rem 0rem;
+  }
+}

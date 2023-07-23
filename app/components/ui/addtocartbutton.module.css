@@ -1,0 +1,28 @@
+.button {
+  display: inline-flex;
+  padding: 1rem 1.38475rem 1.0625rem 1.375rem;
+  align-items: flex-start;
+  gap: 0.71388rem;
+  border-radius: 0.5rem;
+  border: 1px solid #007fff;
+  text-align: center;
+  background-color: white;
+}
+
+.buttonIcon {
+  color: #007fff;
+  text-align: center;
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 1rem;
+}
+.cartItems {
+  color: #000;
+  text-align: center;
+  font-family: Nunito;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.0625rem;
+}

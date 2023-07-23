@@ -1,0 +1,14 @@
+.infoContainer {
+  background-color: var(--primary-color);
+  height: 3.3125rem;
+}
+
+.title {
+  color: #fff;
+  font-size: clamp(1rem, 1rem + 0vw, 1rem);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 0.91994rem;
+  text-transform: capitalize;
+  padding-top: 1rem;
+}
