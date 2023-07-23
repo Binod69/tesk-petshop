@@ -7,6 +7,7 @@ import TopInfo from './components/TopInfo/TopInfo';
 const nunitosans = Nunito_Sans({
   subsets: ['latin'],
   weight: ['400', '500', '700'],
+  style: ['normal', 'italic'],
 });
 
 export const metadata = {
