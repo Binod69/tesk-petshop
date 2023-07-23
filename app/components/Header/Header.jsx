@@ -19,15 +19,12 @@ const Header = () => {
       <header className={styles.header}>
         <Navbar expand="lg" className=" mb-3">
           <Container>
-            <h4 className={styles.brandContainer}>
-              <Link
-                className={`${styles.brandLogo} nav-link order-last`}
-                href="/"
-              >
-                {/* <Image src={logo} alt="logo.png" width={50} height={50} /> */}
+            <Link href="/" className="nav-link">
+              <h4 className={`${styles.brandLogo} order-last order-lg-first`}>
                 Your Logo Here
-              </Link>
-            </h4>
+              </h4>
+            </Link>
+
             <div className=" order-last d-none d-lg-block">
               <AddToCartButton />
             </div>
@@ -53,7 +50,7 @@ const Header = () => {
                 </Offcanvas.Title>
               </Offcanvas.Header>
               <Offcanvas.Body>
-                <Nav className="justify-content-start   flex-grow-1 pe-3 gap-3 gap-lg-5 d-lg-flex justify-content-lg-center flex-lg-row align-items-lg-center">
+                <Nav className=" flex-grow-1 pe-3 gap-3 gap-lg-5 d-lg-flex justify-content-lg-center flex-lg-row align-items-lg-center">
                   <Link className={`${styles.linkNavHome} `} href="/">
                     Home
                   </Link>
@@ -75,12 +72,12 @@ const Header = () => {
                   </Link>
                 </Nav>
 
-                <Form className="d-flex me-4  ">
+                <Form className="d-flex me-4  mt-3 mt-lg-0 ">
                   <div className=" position-relative">
                     <Form.Control
                       type="search"
                       placeholder="Search"
-                      className={styles.search}
+                      className={`${styles.search}`}
                       aria-label="Search"
                     />
 

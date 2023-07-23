@@ -4,7 +4,7 @@ import { Nunito_Sans } from 'next/font/google';
 import Header from './components/Header/Header';
 import TopInfo from './components/TopInfo/TopInfo';
 
-const nunitosans = Nunito_Sans({
+export const nunitosans = Nunito_Sans({
   subsets: ['latin'],
   weight: ['400', '500', '700'],
   style: ['normal', 'italic'],

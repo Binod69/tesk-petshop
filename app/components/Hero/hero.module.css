@@ -1,0 +1,27 @@
+.heroContainer {
+  background-image: url('https://s3-alpha-sig.figma.com/img/bfa8/c575/430b898104a85efe481dece95561b487?Expires=1690761600&Signature=agnBvZu4vK5NSfdlDNNjSKRsrlnua6g8Mz3VIH~1fRAPt5QxShiPStQbz8-Qe1-c4Bvzxfo0HErqtLVdfAsoTgI6erwtZQ2hp7xA0PgkrzCtokyHBOK7HxernccKebOtBmzCdNUZeNijP2-LWh34FhlaLupUCoMHK0J~JokZj8Dm98c60aUOdYHJGe3pNGRCfdnsMCmDugQJWe7phwTdqxOFKijddYSsGzWkdtJSJ1lx7cf3I8ryI~mb3RKsawpSqpmj8IGrEZOUmDWXMN1oOuekDBDy91G3MC8Oh02S5YbJfQ9i2XVV~Fy7Fc561Hv~5RBrp5LNp7tTPXwQWCYTwg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 31.25rem;
+}
+
+.title {
+  color: #17224d;
+  font-family: Nunito;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 3.75rem;
+  text-align: center;
+}
+
+.para {
+  font-family: Nunito;
+  font-size: 1.625rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 2rem;
+  text-align: center;
+}
