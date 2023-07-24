@@ -1,0 +1,124 @@
+.backCon {
+  background-image: url('https://s3-alpha-sig.figma.com/img/a9d5/a31b/6135fcbb4a539070e3bb67bad72a9f7c?Expires=1691366400&Signature=P2fuWzS9O5aGXG6xTItnq48-U51zW-sb28UX0eHFRrH-vBwA~AxQh8b4REXqKTkHosNbeIQFdwTaXgY6rHqGpKHGpH2DWV~CM81V1XH~z43w2QlZgDu8cyFKM8vVo3udXOL2CU-CEKkJ2hZWM9ZekInioEEfQBajW0PKEDpkWPZwBHxxPf1vfYrnNOIbu3glq2uBtJQ5NU1Nzje1AP2vRLr-xmdjUznXtsQy-2E49MOkvJwP1TNmpr-VQy-tQLmp0kVuHKpqG9u9WFJioBlAXSzr2J-0EQAScBQdaO82T1Aot6LJ9rBj26~YX4B6ii0XghgFA2WLQixM9rvAoVP3vw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 20.5rem;
+  border-radius: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: baseline;
+  align-items: center;
+}
+
+.para {
+  color: #f5fafa;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 2rem;
+}
+
+.title {
+  color: #f5fafa;
+  font-size: 2.125rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 2rem;
+  margin: 2rem 0;
+}
+
+.btn {
+  width: 10.05425rem;
+  height: 3.125rem;
+  border-radius: 1.5625rem;
+  background: #f5fafa;
+  border: none;
+  color: #ff960c;
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 2rem;
+  margin-top: 1rem;
+}
+
+.iconContainer {
+  position: relative;
+  margin-left: 2.5rem;
+}
+
+.icon {
+  position: absolute;
+  fill: #fff;
+  left: 30%;
+  top: 26%;
+}
+
+@media screen and (min-width: 0px) and (max-width: 567px) {
+  .backCon {
+    width: 100%;
+    min-height: 10.25rem;
+    border-radius: 0%;
+  }
+  .para {
+    font-size: 1rem;
+    line-height: 1.6rem;
+    max-width: 80%;
+  }
+
+  .title {
+    font-size: 1.5rem;
+
+    line-height: 1.7rem;
+    max-width: 84%;
+  }
+
+  .btn {
+    margin: 0.5rem 0;
+  }
+}
+
+@media screen and (min-width: 567px) and (max-width: 768px) {
+  .para {
+    font-size: 1rem;
+    line-height: 1.6rem;
+    max-width: 37%;
+  }
+
+  .title {
+    font-size: 1.5rem;
+    margin: 0;
+    line-height: 1.7rem;
+    max-width: 65%;
+  }
+  .backCon {
+    min-height: 10rem;
+    width: 100%;
+  }
+  .btn {
+    margin: 0.5rem auto;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .backCon {
+    min-height: 10rem;
+    width: 100%;
+  }
+  .para {
+    font-size: 1rem;
+    line-height: 1.6rem;
+    max-width: 52%;
+  }
+
+  .title {
+    font-size: 1.5rem;
+    line-height: 1.7rem;
+    max-width: 79%;
+    margin: 0.5rem 0;
+  }
+
+  .btn {
+    margin: 0.5rem;
+  }
+}

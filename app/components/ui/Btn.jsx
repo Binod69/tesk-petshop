@@ -1,7 +1,6 @@
 import Image from 'next/image';
 import { AiOutlineRight } from 'react-icons/ai';
 import btnicon from '../../assets/images/btn-circle.svg';
-import btnright from '../../assets/images/btn-right.svg';
 import styles from './btn.module.css';
 const Btn = ({ title }) => {
   return (
