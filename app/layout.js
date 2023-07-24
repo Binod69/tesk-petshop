@@ -3,6 +3,7 @@ import './globals.css';
 import { Nunito_Sans } from 'next/font/google';
 import Header from './components/Header/Header';
 import TopInfo from './components/TopInfo/TopInfo';
+import Footer from './components/Footer/Footer';
 
 export const nunitosans = Nunito_Sans({
   subsets: ['latin'],
@@ -22,6 +23,7 @@ export default function RootLayout({ children }) {
         <TopInfo />
         <Header />
         <main>{children}</main>
+        <Footer />
       </body>
     </html>
   );
