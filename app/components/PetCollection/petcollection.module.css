@@ -1,0 +1,77 @@
+.petsContainer {
+  margin-top: 10%;
+}
+
+.title {
+  color: #17224d;
+  font-family: Nunito;
+  font-size: 2.8125rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 3.75rem;
+}
+.desc {
+  color: #515151;
+  text-align: center;
+  font-family: Nunito;
+  font-size: 1.375rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2rem;
+}
+
+.card {
+  width: 17.5rem;
+  height: 21.875rem;
+  border: 1px solid #d4d2e3;
+}
+
+.cardImg {
+  width: 16.5rem;
+  height: 16.5rem;
+  margin: 0 auto;
+  padding-top: 0.3rem;
+  border-radius: 0.625rem;
+  object-fit: cover;
+}
+
+.cardTitle {
+  color: #17224d;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.5rem;
+}
+
+.cardGender {
+  color: #515151;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.125rem;
+}
+
+.cardGenderName {
+  color: #292929;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.125rem;
+}
+
+@media screen and (min-width: 0px) and (max-width: 576px) {
+  .card {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #d4d2e3;
+  }
+
+  .cardImg {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding-top: 0.3rem;
+    border-radius: 0.625rem;
+    object-fit: cover;
+  }
+}
