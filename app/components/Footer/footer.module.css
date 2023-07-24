@@ -14,6 +14,10 @@
   font-weight: 700;
   line-height: normal;
   max-width: 70%;
+  margin: 3rem 0;
+}
+.contactCon {
+  padding: 2rem 0;
 }
 .logoPhone {
   color: #f5fafa;
@@ -43,7 +47,6 @@
 .titleMenu {
   color: #f5fafa;
   font-feature-settings: 'clig' off, 'liga' off;
-  /* Text single/300/Bold */
   font-size: 1.25rem;
   font-style: normal;
   font-weight: 700;
@@ -62,4 +65,63 @@
   font-style: normal;
   font-weight: 700;
   line-height: 1.25rem;
+}
+
+.footerDesc {
+  color: #f5fafa;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.125rem;
+}
+
+@media screen and (min-width: 0px) and (max-width: 567px) {
+  .footerCon {
+    width: 100%;
+    height: 100%;
+  }
+  .logoTitle {
+    text-align: start;
+    margin: 0px;
+  }
+  .logoPhone {
+    margin: 0px;
+  }
+  .logoLocation {
+    margin: 0px;
+  }
+}
+
+@media screen and (min-width: 567px) and (max-width: 768px) {
+  .footerCon {
+    width: 100%;
+    height: 100%;
+  }
+  .logoTitle {
+    text-align: start;
+    margin: 0px;
+  }
+  .logoPhone {
+    margin: 0px;
+  }
+  .logoLocation {
+    margin: 0px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .footerCon {
+    width: 100%;
+    height: 100%;
+  }
+  .logoTitle {
+    text-align: start;
+    margin: 0px;
+  }
+  .logoPhone {
+    margin: 0px;
+  }
+  .logoLocation {
+    margin: 0px;
+  }
 }
