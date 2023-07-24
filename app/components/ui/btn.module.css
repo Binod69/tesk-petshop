@@ -1,0 +1,44 @@
+.btn {
+  width: 10.05425rem;
+  height: 3.125rem;
+  flex-shrink: 0;
+  border-radius: 1.5625rem;
+  background: #007fff;
+  border: none;
+  color: #fff;
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 2rem;
+  margin-top: 1rem;
+}
+
+.iconContainer {
+  position: relative;
+  margin-left: 2.5rem;
+}
+
+.icon {
+  position: absolute;
+  fill: #007fff;
+  left: 30%;
+  top: 26%;
+}
+
+@media screen and (min-width: 0px) and (max-width: 567px) {
+  .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 567px) and (max-width: 768px) {
+  .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+}
