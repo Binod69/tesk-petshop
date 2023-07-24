@@ -42,10 +42,11 @@ const AboutUs = () => {
                   <Image src={list} alt="list.png" /> Comprehensive
                 </p>
                 <p>
-                  <Image src={list} alt="list.png" /> Comprehensive
+                  <Image src={list} alt="list.png" /> Professional
                 </p>
                 <p>
-                  <Image src={list} alt="list.png" /> Comprehensive
+                  <Image src={list} alt="list.png" /> Compassionate veterinary
+                  service.
                 </p>
               </div>
               <Btn title={'contact'} />

@@ -4,3 +4,33 @@
   --third-color: #292929;
   --fourth-color: #515151;
 }
+
+.carousel-indicators [data-bs-target] {
+  display: none !important;
+}
+.carousel-control-next {
+  display: none;
+}
+.carousel-control-prev {
+  display: none;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.carousel-control-prev {
+  left: 10px;
+}
+
+.carousel-control-next {
+  right: 10px;
+}
